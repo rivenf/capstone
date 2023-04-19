@@ -2,9 +2,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>placeholder text</p>
-    </div>
+    <>
+      <header>
+        <nav></nav>
+      </header>
+      <main>
+        <section id='hero'></section>
+        <section id='highlights'></section>
+        <section id='testimonials'></section>
+        <section id='about'></section>
+      </main>
+      <footer></footer>
+    </>
   );
 }
 
