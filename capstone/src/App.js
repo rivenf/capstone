@@ -4,15 +4,13 @@ function App() {
   return (
     <>
       <header>
-        <nav></nav>
+        <Nav />
       </header>
       <main>
-        <section id='hero'></section>
-        <section id='highlights'></section>
-        <section id='testimonials'></section>
-        <section id='about'></section>
+        <Hero />
+        <Form />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
