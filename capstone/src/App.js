@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <header className='container'>
+        <img src='' className='navLogo' alt='Little Lemon logo'/>
         <Nav />
       </header>
       <main className='container'>
