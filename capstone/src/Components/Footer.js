@@ -1,19 +1,20 @@
 import React from 'react';
-import Nav from './Nav.js'
+import Nav from './Nav.js';
 import '../App.css';
+import Logo from '../images/Logo.svg';
 
-export default function Footer() {
+export default function Footer(props) {
     return (
         <>
-            <img src='' className='footLogo' alt='Little Lemon logo' />
-            <Nav />
-            <ul>
+            <img src={Logo} className='footLogo' alt='Little Lemon logo' />
+            <Nav style='footNav'/>
+            <ul className={props.style}>
                 <li><h3>Social Media</h3></li>
                 <li><a href='http://www.facebook.com'>Facebook</a></li>
                 <li><a href='http://www.instagram.com'>Instagram</a></li>
                 <li><a href='http://www.twitter.com'>Twitter</a></li>
             </ul>
-            <ul>
+            <ul className={props.style}>
                 <li><h3>Contact</h3></li>
                 <li>address</li>
                 <li>phone number</li>

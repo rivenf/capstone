@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-export default function Nav() {
+export default function Nav(props) {
     return (
         <>
-            <ul>
+            <ul className={props.style}>
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>About</a></li>
                 <li><a href='#'>Menu</a></li>
