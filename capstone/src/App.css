@@ -5,38 +5,66 @@
 .header{
   display: flex;
   flex-direction: row;
+  padding: 10px;
 }
 .headerNav{
   display: flex;
   flex-direction: row;
   list-style: none;
-  color:darkmagenta;
+}
+.headerNav li a{
+  text-decoration: none;
+  color:black;
+  margin: 1.5em;
+}
+.navLogo{
+  height: 100%;
 }
 
-.container {
+.main {
   display: flex;
   flex-direction: column;
 }
 
 .hero{
   display:flex;
-  background-color: #FBDABB;
+  background-color: #495E57;
+  color: #ffffff;
+  padding: 10px;
 }
 .heroText{
   flex-direction: column;
+  width: 30%;
+}
+.heroText h1{
+  color: #F4CE14;
+  font-size: 2em;
 }
 .heroImg {
-  width: 30%;
+  width: 25%;
+  margin: 10px;
+  border-radius: 16px;
+}
+.button{
+  background-color: #F4CE14;
+  border-radius: 16px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .footer{
   display: flex;
   background-color: #495E57;
+  padding: 10px;
 }
 .footNav{
   list-style: none;
-  color:black;
+  color: #ffffff;
   font-size: .75em;
+}
+.footNav li a{
+  color: #ffffff;
 }
 .footLogo{
   width: 25%;

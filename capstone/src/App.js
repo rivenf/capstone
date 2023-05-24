@@ -13,8 +13,8 @@ function App() {
         <img src={Logo} className='navLogo' alt='Little Lemon logo'/>
         <Nav style='headerNav'/>
       </header>
-      <main className='container'>
-        <Hero />
+      <main className='main'>
+        <Hero button='View Menu'/>
         <Form />
       </main>
       <footer className='footer'>
