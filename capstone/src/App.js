@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Components/Nav.js';
 import Hero from './Components/Hero.js';
-import Form from './Components/Form.js';
+import BookingPage from './Components/BookingPage.js';
 import Footer from './Components/Footer.js';
 import './App.css';
 import Logo from './images/Logo.svg';
@@ -15,7 +15,7 @@ function App() {
       </header>
       <main className='main'>
         <Hero button='View Menu'/>
-        <Form />
+        <BookingPage />
       </main>
       <footer className='footer'>
         <Footer style='footNav'/>
