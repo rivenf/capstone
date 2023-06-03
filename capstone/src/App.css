@@ -2,10 +2,23 @@
   text-align: center;
 }
 
+.container{
+  display: flex;
+  flex-direction:column;
+}
+.innerContainer{
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  margin: auto;
+}
+
 .header{
   display: flex;
   flex-direction: row;
   padding: 10px;
+  max-width: 900px;
+  margin: auto;
 }
 .headerNav{
   display: flex;
@@ -24,6 +37,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .hero{
@@ -31,17 +45,17 @@
   background-color: #495E57;
   color: #ffffff;
   padding: 10px;
+  width: 100%;
 }
 .heroText{
   flex-direction: column;
-  width: 30%;
 }
 .heroText h1{
   color: #F4CE14;
   font-size: 2em;
 }
 .heroImg {
-  width: 25%;
+  max-height: 300px;
   margin: 10px;
   border-radius: 16px;
 }
@@ -54,10 +68,16 @@
   border-style: none;
 }
 
+.bookingPage{
+  display:flex;
+  flex-direction: column;
+}
+
 .footer{
   display: flex;
   background-color: #495E57;
   padding: 10px;
+  width: 100%;
 }
 .footNav{
   list-style: none;
@@ -68,5 +88,5 @@
   color: #ffffff;
 }
 .footLogo{
-  width: 25%;
+  max-width: 200px;
 }

@@ -8,19 +8,19 @@ import Logo from './images/Logo.svg';
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <header className='header'>
         <img src={Logo} className='navLogo' alt='Little Lemon logo'/>
-        <Nav style='headerNav'/>
+        <Nav styleId='headerNav'/>
       </header>
       <main className='main'>
         <Hero button='View Menu'/>
         <BookingPage />
       </main>
       <footer className='footer'>
-        <Footer style='footNav'/>
+        <Footer styleId='footNav'/>
       </footer>
-    </>
+    </div>
   );
 }
 

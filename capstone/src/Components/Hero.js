@@ -5,6 +5,7 @@ import MarioAdrianA from '../images/MarioAdrianA.jpg';
 export default function Hero(props) {
     return (
         <section className='hero'>
+            <div className='innerContainer'>
             <section className='heroText'>
                 <h1>The Little Lemon</h1>
                 <h2>Chicago</h2>
@@ -12,6 +13,7 @@ export default function Hero(props) {
                 <button className='button'>{props.button}</button>
             </section>
             <img src={MarioAdrianA} alt='Mario and Adrian' className='heroImg' />
+            </div>
         </section>
     )
 }

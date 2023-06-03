@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
 import '../App.css';
 
-const [date, setDate] = useState('');
-const [time, setTime] = useState('');
-const [guests, setGuests] = useState('');
-const [occasion, setOccasion] = useState('');
-
 export default function BookingForm() {
+    const [date, setDate] = useState('');
+    const [time, setTime] = useState('');
+    const [guests, setGuests] = useState('');
+    const [occasion, setOccasion] = useState('');
+
     return (
         <>
-            <form style="display: grid; max-width: 200px; gap: 20px">
+            <form>
                 <label htmlFor="res-date">Choose date</label>
                 <input
                     type="date"
