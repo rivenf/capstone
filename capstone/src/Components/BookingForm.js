@@ -35,7 +35,6 @@ export default function BookingForm() {
                 />
                 {formik.touched.date && formik.errors.date ?
                     (<div>{formik.errors.date}</div>) : null}
-
                 <label htmlFor="time">Choose time</label>
                 <select
                     id="time"
@@ -49,7 +48,6 @@ export default function BookingForm() {
                     <option>21:00</option>
                     <option>22:00</option>
                 </select>
-
                 <label htmlFor="guests">Number of guests</label>
                 <input
                     type="number"
@@ -59,7 +57,6 @@ export default function BookingForm() {
                 />
                 {formik.touched.guests && formik.errors.guests ?
                     (<div>{formik.errors.guests}</div>) : null}
-
                 <label htmlFor="occasion">Occasion</label>
                 <select
                     id="occasion"
@@ -70,7 +67,6 @@ export default function BookingForm() {
                     <option>Anniversary</option>
                     <option>Other</option>
                 </select>
-
                 <label htmlFor="comment">Additional comments</label>
                 <input
                     type="text"
@@ -78,7 +74,6 @@ export default function BookingForm() {
                     name="comment"
                     {...formik.getFieldProps('comment')}
                 />
-
                 <button type='submit'>Make a Reservation</button>
             </form>
         </>

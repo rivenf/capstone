@@ -10,8 +10,10 @@ function App() {
   return (
     <div className='container'>
       <header className='header'>
-        <img src={Logo} className='navLogo' alt='Little Lemon logo'/>
-        <Nav styleId='headerNav'/>
+        <div className='headerInner'>
+          <img src={Logo} className='navLogo' alt='Little Lemon logo'/>
+          <Nav styleId='headerNav'/>
+        </div>
       </header>
       <main className='main'>
         <Hero button='View Menu'/>

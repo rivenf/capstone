@@ -1,12 +1,12 @@
 import React from 'react';
 import Nav from './Nav.js';
 import '../App.css';
-import Logo from '../images/Logo.svg';
+import whiteLogo from '../images/whiteLogo.png';
 
 export default function Footer(props) {
     return (
         <div className='innerContainer'>
-            <img src={Logo} className='footLogo' alt='Little Lemon logo' />
+            <img src={whiteLogo} className='footLogo' alt='Little Lemon logo' />
             <Nav styleId='footNav'/>
             <ul className={props.styleId}>
                 <li><h3>Social Media</h3></li>
