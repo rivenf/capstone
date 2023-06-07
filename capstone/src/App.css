@@ -52,6 +52,7 @@
 }
 .heroText{
   flex-direction: column;
+  padding: 0px 15px;
 }
 .heroText h1{
   color: #F4CE14;
@@ -73,12 +74,22 @@
 
 .bookingPage{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content: space-evenly;
   background-color: #ffffff;
   border-radius: 16px;
   margin: 10px auto;
   padding: 10px;
   max-width: 880px;
+}
+.formSection{
+  flex-direction:column;
+  margin: 10px;
+}
+.pageImg {
+  max-height: 300px;
+  margin: 10px;
+  border-radius: 16px;
 }
 
 .footer{
