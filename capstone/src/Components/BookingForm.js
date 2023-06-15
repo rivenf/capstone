@@ -39,7 +39,7 @@ export default function BookingForm() {
                     {...formik.getFieldProps('date')}
                 />
                 {formik.touched.date && formik.errors.date ?
-                    (<div>{formik.errors.date}</div>) : null}<br /><br />
+                    (<div className='error'>{formik.errors.date}</div>) : null}<br /><br />
 
                 <label htmlFor="time">Choose time: </label>
                 <select
@@ -63,7 +63,7 @@ export default function BookingForm() {
                     {...formik.getFieldProps('guests')}
                 />
                 {formik.touched.guests && formik.errors.guests ?
-                    (<div>{formik.errors.guests}</div>) : null}<br /><br />
+                    (<div className='error'>{formik.errors.guests}</div>) : null}<br /><br />
 
                 <label htmlFor="occasion">Occasion: </label>
                 <select

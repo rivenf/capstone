@@ -91,6 +91,9 @@
   margin: 10px;
   border-radius: 16px;
 }
+.error {
+  color: red;
+}
 
 .footer{
   display: flex;
